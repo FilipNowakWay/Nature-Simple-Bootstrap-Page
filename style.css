@@ -25,10 +25,11 @@ h2{
 
 .btn{
     font-weight: 700;
+    font-size:small;
     border-radius: 300px;
 }
 
-.btn-xl {
+.btn-md {
     padding: 0.5rem 1rem;
     background-color: #f5996aff;
     border-color: #f5996aaf;
@@ -36,7 +37,16 @@ h2{
     transition: background-color 0.3s ease, border-color 0.3s ease, border-width 0.6s ease;
 }
 
-.btn-xl:hover {
+.btn-md:visited {
+    padding: 0.5rem 1rem;
+    background-color: #f5996aff;
+    border-color: #f5996aaf;
+    color: #fff; 
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-width 0.6s ease;
+}
+
+
+.btn-md:hover {
     background-color: #ff7f50; 
     border-color: #ff7f50; 
     border-width: 5px;
